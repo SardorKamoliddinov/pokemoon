@@ -1,0 +1,39 @@
+.pokemon {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pokemon h1 {
+  color: grey;
+  font-size: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.pokemon h1:hover{
+  color: grey;
+  transition: 0.5s;
+  text-shadow: 0 0 7px rgb(0, 255, 221);
+}
+
+input[type="text"] {
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1.4px solid #fa8f3870;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.308);
+  max-width: 450px;
+}
+input[type="text"]:hover{
+  box-shadow: 0 0 7px rgb(0, 255, 221);
+}
+
+.pokemon-types {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  cursor: pointer;
+}
